@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    background-color: var(--Very-dark-blue-main-BG);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    background-color: var(--Very-dark-blue-card-BG);
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.container .info h1 {
+    color: var(--White);
+    font-size: 20px;
+    margin: 15px 0;
+}
+.container .info p {
+    color: hsl(215deg 26% 59%);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.container .info .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.container .info .icons span {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container .info .icons span:first-child {
+    color: var(--Cyan);
+}
+.container .info .icons span:last-child {
+    color: var(--Soft-blue);
+}
+hr {
+    border-color: hsl(215deg 26% 59%);
+    margin-bottom: 15px;
+    border-bottom-style: none;
+}
+.container .info .avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+}
+.container .info .avatar img {
+    border: 2px solid var(--White);
+    border-radius: 50%;
+    width: 34px;
+}
+.container .info .avatar span {
+    color: var(--White);
+    margin-left: -5px;
+}
+.attribution {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
