@@ -37,17 +37,17 @@ body {
 .container .info h1 {
     color: var(--White);
     font-size: 20px;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .container .info p {
     color: hsl(215deg 26% 59%);
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .container .info .icons {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .container .info .icons span {
     font-size: 15px;
@@ -64,7 +64,7 @@ body {
 }
 hr {
     border-color: hsl(215deg 26% 59%);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-bottom-style: none;
 }
 .container .info .avatar {
